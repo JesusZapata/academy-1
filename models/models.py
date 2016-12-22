@@ -2,10 +2,11 @@
 
 from odoo import models, fields, api
 
-# class academy(models.Model):
-#     _name = 'academy.academy'
+class Teacher(models.Model):
+     _name = 'academy.teacher'
 
-#     name = fields.Char()
+     name = fields.Char()
+
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
